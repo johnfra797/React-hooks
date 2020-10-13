@@ -1,12 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import HookDataFetching from './components/HookDataFetching'
+import ComponentA from './components/Context/ComponentA'
 
+export const UserContext= React.createContext();
 function App() {
   return (
     <div className="App">
-    <HookDataFetching></HookDataFetching>
+      <UserContext.Provider value={'Jhon Castillo0'}>
+      <ComponentA></ComponentA>
+      </UserContext.Provider>
     </div>
   );
 }
