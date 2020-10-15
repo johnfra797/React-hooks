@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import CounterOne from './components/Reducer/CounterOne'
 import CounterTwo from './components/Reducer/CounterTwo'
+import CounterThree from './components/Reducer/CounterThree'
 import ComponentA from './components/Context/ComponentA'
 export const UserContext = React.createContext();
 function App() {
@@ -13,6 +14,7 @@ function App() {
       </UserContext.Provider>
       <CounterOne></CounterOne>
       <CounterTwo></CounterTwo>
+      <CounterThree></CounterThree>
     </div>
   );
 }
