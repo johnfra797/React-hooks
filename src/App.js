@@ -5,6 +5,8 @@ import CounterOne from './components/Reducer/CounterOne'
 import CounterTwo from './components/Reducer/CounterTwo'
 import CounterThree from './components/Reducer/CounterThree'
 import ComponentA from './components/Context/ComponentA'
+import Main from './components/Reducer/Context/Main'
+import DataFetchingOne from './components/Reducer/DataFetchingOne'
 export const UserContext = React.createContext();
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
       <CounterOne></CounterOne>
       <CounterTwo></CounterTwo>
       <CounterThree></CounterThree>
+      <hr/>
+      <Main></Main>
+      <DataFetchingOne></DataFetchingOne>
     </div>
   );
 }
