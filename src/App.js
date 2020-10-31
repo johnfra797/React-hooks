@@ -7,6 +7,7 @@ import CounterThree from './components/Reducer/CounterThree'
 import ComponentA from './components/Context/ComponentA'
 import Main from './components/Reducer/Context/Main'
 import DataFetchingOne from './components/Reducer/DataFetchingOne'
+import DataFetchingTwo from './components/Reducer/DataFetchingTwo'
 export const UserContext = React.createContext();
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <hr/>
       <Main></Main>
       <DataFetchingOne></DataFetchingOne>
+      <DataFetchingTwo></DataFetchingTwo>
     </div>
   );
 }
