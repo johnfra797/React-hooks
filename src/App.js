@@ -5,6 +5,8 @@ import Focus from './components/Ref/Focus'
 import HookTimer from './components/Ref/HookTimer'
 import DocTitleOne from './components/Custom/DocTitleOne'
 import CounterOne from './components/Custom/CounterOne'
+
+import UserForm from './components/Custom/UserForm'
 function App() {
   return (
     <div className="App">
@@ -12,6 +14,7 @@ function App() {
       <HookTimer></HookTimer>
       <DocTitleOne></DocTitleOne>
       <CounterOne></CounterOne>
+      <UserForm></UserForm>
     </div>
   );
 }
